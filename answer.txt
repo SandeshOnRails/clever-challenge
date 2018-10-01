@@ -1,0 +1,6 @@
+
+Brief
+
+I used the sections API to get number of students in each section, by making HTTP GET request using the "request" library from NPM. I provided the given "Authorization" key as request header parameter. The received JSON object was parsed into JS object. The data property of the response body provided an array of sections and each element had property data, which contained an array of students in the section. I used the array length of each student array and added them up to get the total number of students in all the sections. Finally, I rounded up the average by diving the total number of students/ total number of sections.
+
+ANSWER - 22 
